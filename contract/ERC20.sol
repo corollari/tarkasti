@@ -38,6 +38,10 @@ contract ERC20 {
     function balanceOf(string owner) public view returns (uint256) {
         return _balances[owner];
     }
+    
+    function checkIfGiven(string to) public view returns (bool) {
+        return _given[to];
+    }
 
 
     function mint(string to, uint256 value) public onlyOwner returns (bool) {

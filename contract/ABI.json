@@ -83,6 +83,25 @@
 		"type": "function"
 	},
 	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "to",
+				"type": "string"
+			}
+		],
+		"name": "checkIfGiven",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
 		"anonymous": false,
 		"inputs": [
 			{
