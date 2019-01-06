@@ -37,3 +37,9 @@ identify domain experts
 
 ### But it's not as trsutless as what TruStory is building, right?
 If we examine the threat model...
+
+### Why is it called tarkasti?
+tarkatsi is a finnish word that means "True", "precisely", "faithfully"...
+
+### What is the purpose of all this?
+The whole point is to build a Proof-of-Concept for TruStory to get them to hire me as an intern.
