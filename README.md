@@ -19,7 +19,7 @@ access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 ## Run
 ```bash
-geth --light &
+geth --syncmode "light" --rinkeby &
 . venv/bin/activate
 python bot.py
 ```
