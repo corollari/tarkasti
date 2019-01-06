@@ -11,10 +11,13 @@ Then set up your API keys as outlined in the next section:
 ## API keys
 Create a file named `secret.py` with the following contents:
 ```python
+# Twitter's API keys
 consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXX'
 consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+# Account password as used in geth
+gethPassword = 'XXXXXXXXXXXXX'
 ```
 
 ## Run
